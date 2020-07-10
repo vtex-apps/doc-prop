@@ -1,0 +1,5 @@
+{
+  "no-wrapper.doc-prop": {
+    "path": "/docs/props/app/:appId/:interfaceId"
+  }
+}

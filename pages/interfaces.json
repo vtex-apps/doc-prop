@@ -1,0 +1,8 @@
+{
+  "no-wrapper": {
+    "around": []
+  },
+  "no-wrapper.doc-prop": {
+    "component": "DocProp"
+  }
+}
