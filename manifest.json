@@ -1,10 +1,9 @@
 {
   "vendor": "vtex",
-  "name": "doc-prop-component",
-  "version": "0.0.12",
-  "title": "Doc Prop Component",
-  "description": "Countdown component",
-  "defaultLocale": "pt-BR",
+  "name": "doc-prop",
+  "version": "0.0.1",
+  "title": "Doc Prop",
+  "description": "React props automatic documentator",
   "builders": {
     "docs": "0.x",
     "react": "3.x",
@@ -20,3 +19,4 @@
   "categories": [],
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
+
