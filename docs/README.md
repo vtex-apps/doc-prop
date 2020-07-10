@@ -1,7 +1,3 @@
-# Docs UI
+# Doc Prop
 
-This is the UI for VTEX IO documentation at https://vtex.io/docs.
-
-To contribute to the available content, please refer to [IO Documentation](https://github.com/vtex-apps/io-documentation).
-
-## DocProp
+This is the autodocumentator for VTEX IO Store Framework components
