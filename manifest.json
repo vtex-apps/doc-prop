@@ -1,9 +1,10 @@
 {
   "vendor": "vtex",
-  "name": "doc-prop",
-  "version": "0.0.1",
-  "title": "Doc Prop",
-  "description": "React props automatic documentator",
+  "name": "doc-prop-component",
+  "version": "0.0.12",
+  "title": "Doc Prop Component",
+  "description": "Countdown component",
+  "defaultLocale": "pt-BR",
   "builders": {
     "docs": "0.x",
     "react": "3.x",
