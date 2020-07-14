@@ -15,6 +15,24 @@
     "vtex.styleguide": "9.x",
     "vtex.pages-graphql": "2.x"
   },
+  "settingsSchema": {
+    "title": "Doc Prop",
+    "type": "object",
+    "properties": {
+      "customHeader": {
+        "title": "Custom Header",
+        "type": "object",
+        "properties": {
+          "key": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
   "mustUpdateAt": "2018-09-05",
   "categories": [],
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
