@@ -9,14 +9,14 @@ import useComponentSchema from './hooks/useComponentSchema'
 const DocProp: FC<DocPropProps> = ({ blockInterface }) => {
   const {
     route: {
-      params: { appId, interfaceId },
+      params: { appId, app, interfaceId },
     },
   } = useRuntime()
   console.log(appId, interfaceId)
 
   const { loading, error, data } = useComponentSchema(
-    appId,
-    interfaceId || blockInterface
+    appId ?? app,
+    interfaceId ?? blockInterface
   )
 
   if (loading) {
