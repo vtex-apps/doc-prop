@@ -1,7 +1,7 @@
 {
   "vendor": "vtex",
   "name": "doc-prop",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "title": "Doc Prop",
   "description": "React props automatic documentator",
   "builders": {
