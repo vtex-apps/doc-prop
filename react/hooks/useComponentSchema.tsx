@@ -6,6 +6,8 @@ import appAssetsQuery from '../graphql/appAssets.graphql'
 
 const RENDER_MAJOR = 8
 
+const findAssets = (assetsList: any, appId: string, componentName: string) => assetsList.find(assets=> Object.keys(assets).find(key => key.includes(`${appId}/${componentName}`)))
+
 const useComponentSchema = (appId: string, componentName: string) => {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
@@ -30,7 +32,7 @@ const useComponentSchema = (appId: string, componentName: string) => {
         if (!componentAssets) {
           console.error(`Couldnt load component's asset`)
         }
-        return fetchComponents(assetsList[0]).then(() => ({
+        return fetchComponents(findAssets(assetsList, appId, componentName)).then(() => ({
           componentAssets,
           messagesFetched,
         }))
